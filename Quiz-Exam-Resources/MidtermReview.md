@@ -5,6 +5,11 @@ You will have 55 minutes to take the midterm.
 The exam will be a paper exam, so a writing utensil is required. 
 The exam is individual and talking will not be tolerated. 
 
+## Logic and Logic Gates
+- Gate identification
+- Following values through a circuit
+- Basic binary
+
 ## Basic HTML Elements:
     ```
     - Unordered Lists: <ul></ul>
