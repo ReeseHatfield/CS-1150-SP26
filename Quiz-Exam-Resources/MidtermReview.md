@@ -9,6 +9,7 @@ The exam is individual and talking will not be tolerated.
 - Gate identification
 - Following values through a circuit
 - Basic binary
+    - Including the concept of overflow     
 
 ## Basic HTML Elements:
     ```
