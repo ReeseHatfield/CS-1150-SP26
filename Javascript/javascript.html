@@ -11,13 +11,13 @@
 
 <script>
 
-	alert("Hello world");
+	// alert("Hello world");
 
 	document.write("<h3>Hello</h3>");
 	
 	var favColor = "Purple";
 
-	alert("Michael's favorite color was: " + favColor);
+	// alert("Michael's favorite color was: " + favColor);
 
 
 	var favNumber;
@@ -36,9 +36,58 @@
 
 	var result = age * pi;
 
-	alert("Result was: "  + result);
+	// alert("Result was: "  + result);
 
-	
+	//  This is a comment
+
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+
+	// var favPlace = prompt("What is your favorite place?");
+
+
+	// document.write("Your favorite place was...");
+	// document.write("<h2>" + favPlace + "</h2>");
+
+	//var firstNum = prompt("Enter your 1st number");
+	//var secondNum = prompt("Enter your 2nd number");
+
+	//firstNum = parseInt(firstNum);
+	//secondNum = parseInt(secondNum);
+
+	//var sum = firstNum + secondNum;
+
+	//alert("sum was: "  + sum);
+
+	// input variables
+	var height;
+	var weight;
+
+	// intermediate
+	var heightSquared;
+
+	//output
+	var bmi;
+
+	height = prompt("Enter your height (in meters)");
+	weight = prompt("Enter your weight (in pounds)");
+
+
+	height = parseFloat(height);
+	weight = parseFloat(weight);
+
+	weight = weight * 0.45;
+
+	heightSquared = height * height;
+
+	bmi = weight / heightSquared;
+
+	alert("Your BMI was: " + bmi);
+
+
+
+	// alert(bmi))
 	
 
 </script>
