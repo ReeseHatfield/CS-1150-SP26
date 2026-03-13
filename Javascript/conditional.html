@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Title</title>
+</head>
+<body>
+
+<h1>Welcome to my conditionals demo</h1>
+
+<script>
+    // bool1 && bool2 // logical AND
+    // bool1 || bool2 // logical OR 
+
+
+	var isLess = 12 < 6;
+
+	var isGreater = 12 > 6;
+
+	var isNotEqual = !(12 == 13);
+
+	// alert(isNotEqual);
+
+	// alert(isGreater);
+
+	var userName = prompt("What is your name");
+
+	// var isNamedReese = userName === "Reese";
+
+	// if(isNamedReese) {
+	//	alert("Hi " + "Reese");
+	//}
+
+	if (userName === "Reese"){
+
+		var favColor = prompt("What is your fav. color");
+
+		if(favColor === "black"){
+			alert("That is not a creative color");
+		}
+		else {
+			alert("You teach 1150 Lecture and your fav. color is "+ favColor);
+		}
+		
+	
+	} else if (userName == "Andrew"){
+		alert("You teach the 1150 Lab");
+
+	} else {
+		alert("You do NOT teach 1150");
+
+	}
+
+	// alert(isNamedReese);
+
+</script>
+    
+</body>
+</html>
