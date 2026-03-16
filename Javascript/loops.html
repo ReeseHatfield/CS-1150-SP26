@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Loops</title>
+</head>
+<body>
+
+<h1>Welcome to my JS website</h1>
+
+<script>
+
+	var numItems = prompt("How many items?");
+	numItems = parseInt(numItems);
+
+	document.write("<ul>");
+	for(var i = 0; i < numItems; i = i + 1){
+		var input = prompt("Item: ");
+		document.write("<li>" + input + "</li>");
+	}
+
+	document.write("</ul>");
+
+	//for(var i = 0; i < 10; i = i + 2){
+		//alert("User " + i);
+	//}
+
+	//var sum = 0;
+
+	//var input = "";
+
+	//while(input !== -1){
+		//input = prompt(sum + " Enter the price of your next item:");
+		//input = parseFloat(input);
+		//sum = sum + input;
+	//}
+
+	//document.write("You spent: ");
+	//document.write("<h1>" + sum +"</h1>")
+	
+
+	//var input2 = prompt("Enter the price of your second item");
+	//input2 = parseFloat(input2);
+	//sum = sum + input2;
+
+
+	//alert(sum);
+
+	//while(true){
+		// indentation
+		
+		//alert("Hello user");
+	//}
+
+	//var n = 0;
+	//while(n < 3){
+		//alert("Hello user");
+
+		//n = n + 1;
+	//}
+
+</script>
+    
+</body>
+</html>
