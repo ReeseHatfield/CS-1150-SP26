@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Title</title>
+</head>
+<body>
+
+<script>
+
+	
+
+	//Ask user how tall they are
+
+	//Read in data
+	///var height = prompt("How tall are you in feet?")
+
+	//height = parseInt(height);
+	
+	//If user is taller than 6 ft
+	//if(height > 6){
+		// Tell them they are tall
+	//	alert("You are tall")
+	//}
+	//else {
+	//		Tell them they are short
+	//	alert("you are short!")
+	//}
+
+	var numStudents = prompt("How many students?");
+
+	numStudents = parseInt(numStudents);
+
+	for(var i = 0; i < numStudents; i = i + 1){
+
+		var name = prompt("What is your name?");
+		var percentage = prompt("What is your percentage");
+		percentage = parseInt(percentage);
+
+		var letterGrade;
+		if(percentage >= 90){
+			letterGrade = "A";
+		}
+		else if(percentage >= 80){
+			letterGrade = "B";
+		}
+		else if(percentage >= 70){
+			letterGrade = "C";
+		}
+		else if(percentage >= 60){
+			letterGrade = "D";
+		}
+		else {
+			letterGrade = "F";
+		}
+
+		if(name === "Reese"){
+			letterGrade = "A";
+			//document.write("Reese got an A");
+		}
+		else if (name === "Andrew"){
+			letterGrade = "A"
+			//document.write("Andrew got a B");
+		}
+		
+		document.write(name + " got a " + letterGrade);
+	
+		document.write("<br>")
+
+
+
+	
+	}
+
+
+
+
+</script>
+    
+</body>
+</html>
