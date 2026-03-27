@@ -36,9 +36,3 @@ It will be primarily focused on advanced OOP topics.
 - OSI Model (I will not make you memorize all the layers)
 - MAC Addresses
 - IP Addresses
-
-
-
-
-## Programming Languages
-- Turing Completeness
