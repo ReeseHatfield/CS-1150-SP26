@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Title</title>
+</head>
+<body>
+    <script>
+
+        var name;
+
+        name = prompt("Hi! What is your name");
+
+        alert("Hi " + name);
+
+        document.write("<h1>" + "hi " + name + "</h1>");
+
+        var age = prompt("How old are you?");
+
+        age = parseInt(age);
+
+
+        document.write("<ul>");
+        for(var i = 0; i < age; i = i + 1){
+
+            if(i === 10){
+                document.write( "<li>" +"10th item" + "</li>");
+            }
+            else {
+                document.write( "<li>" +"hi!" + "</li>");
+            }
+
+
+        }
+        document.write("</ul>");
+
+        if (age === 30){
+            alert("Happy 30th!");
+        }
+
+
+
+
+    </script>
+</body>
+</html>
