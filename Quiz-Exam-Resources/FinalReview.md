@@ -1,4 +1,4 @@
-# Midterm Review
+# Final Review
 
 The midterm will be held May 1st, at 2:45 PM in Russ 152C 
 You will have two hours to take the exam. 
