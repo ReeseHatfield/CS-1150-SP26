@@ -5,7 +5,7 @@ You will have two hours to take the exam.
 The exam will be a paper exam, so a writing utensil is required. 
 The exam is individual and talking will not be tolerated. 
 
-## Comprehensive
+## Cummulative
 The exam will be comprehensive, with a focus on material from after the midterm. 
 As such, content covered before the midterm may appear on the final exam.
 
