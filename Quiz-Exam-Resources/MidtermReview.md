@@ -1,6 +1,6 @@
 # Midterm Review
 
-The midterm will be held during class, February 27th, 2026. 
+The midterm will be held during class, October 9th, 2026. 
 You will have 55 minutes to take the midterm. 
 The exam will be a paper exam, so a writing utensil is required. 
 The exam is individual and talking will not be tolerated. 
